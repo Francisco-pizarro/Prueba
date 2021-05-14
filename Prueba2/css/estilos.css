@@ -1,0 +1,30 @@
+.botones{
+    margin-left: auto;
+}
+
+
+
+#btn_ingresar{
+    background-color: #a5690986;
+    color: white;
+    width: 200px;
+    border-color: white;
+    font-family: Helvetica;
+    border-radius: 15px;
+}
+
+#btn_registrar{
+    background-color: white;
+    color: #121014;
+    width: 200px;
+    border-color: #440C90;
+    font-family: Helvetica;
+    border-radius: 15px;
+}
+
+#barra-btn{
+    background-color: wheat;
+}
+#logo_bnc{
+    width: 10%;
+}
