@@ -1,0 +1,203 @@
+.botones{
+    margin-left: auto;
+    border-color: #BC0D72
+    ;
+}
+
+.botones{
+    background-color: white;
+
+}
+#logo_bnc{
+    width: 20%;
+}
+
+#btn_inicio{
+    background-color: rgb(56, 111, 152);
+    color: white;
+    width: 20%;
+    border-radius: 5px;
+    height: 20%;
+    font-family: century Gothic;
+    padding: 1%;
+}
+
+#btn_ingresar{
+    background-color: rgb(56, 111, 152);
+    color: white;
+    width: 20%;
+    border-radius: 5px;
+    font-family: century Gothic;
+    padding: 1%;
+    margin-left: 10%;
+}
+
+#btn_ingresar:hover{
+    background-color:  rgb(10, 97, 163);
+
+}
+
+#btn_registrar{
+    margin-right: 20%;
+    background-color: rgb(258, 88, 28);
+    color: white;
+    width: 20%;
+    border-radius: 5px;
+    font-family: century Gothic;
+    padding: 1%;
+}
+
+#btn_registrar:hover{
+    background-color: rgb(288, 100, 20);
+}
+
+#ImgenPrincipal{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+#btn_enviar{
+    background-color: rgb(56, 111, 152);
+    color: white;
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+    font-family: century Gothic;
+    padding: 1%;
+}
+
+#formulario-registro{
+    margin: 5%;
+    width: 60%;
+    /*background-color: rgb(56, 111, 152);*/
+    color: rgb(56, 111, 152);
+    font-size: large;
+    border-color: rgb(288, 100, 20);
+    font-weight: bold;
+    font-family: century Gothic;
+}
+/*funciones*/
+/*error*/
+.error{
+color:red;
+}
+
+#titulo-form{
+    margin-left: 20%;
+    font-weight: bold;
+    font-family: century Gothic;
+    color: rgb(56, 111, 152);
+    font-size: x large;
+}
+
+#formulario-registro{
+    margin-left: 20%;
+    width: 60%;
+    /*background-color: rgb(56, 111, 152);*/
+    color: rgb(56, 111, 152);
+    font-size: large;
+    border-color: rgb(288, 100, 20);
+    font-weight: bold;
+    font-family: century Gothic;
+}
+
+#lbl-email{
+    margin: 6%;
+    margin-top: 6.4%;
+}
+
+#btn_volver{
+    background-color:rgb(288, 100, 20);
+    color: white;
+    width: 10%;
+    border-radius: 5px;
+    font-family: century Gothic;
+    margin-left: 70%;
+    font-size: xx-large;
+}
+
+#btn_volver:hover{
+    background: rgb(56, 111, 152);
+}
+
+#btn_volver_ingresar{
+    background-color:rgb(288, 100, 20);
+    color: white;
+    width: 10%;
+    border-radius: 5px;
+    font-family: century Gothic;
+    margin-left: 70%;
+    font-size: x-large;
+}
+
+#btn_volver_ingresar:hover{
+    background: rgb(56, 111, 152);
+}
+
+#lbl_clima{
+    color: rgb(56, 111, 152);
+    margin-left: 2%;
+    font-family: century Gothic;
+    font-weight: bolder;
+}
+
+#lbl_indicador{
+    color: rgb(56, 111, 152);
+    margin-left: 2%;
+    font-family: century Gothic;
+    font-weight: bolder;
+}
+
+#bienvenida{
+    color: rgb(56, 111, 152);
+    margin-left: 10%;
+    font-family: century Gothic;
+    font-weight: bolder;
+}
+
+
+#btn-modal-recuperar{
+    color: rgb(56, 111, 152);;
+    margin-left: 3%;
+    font-weight: bold;
+    font-family: century Gothic;
+}
+
+#btn-modal-recuperar:hover{
+    background: rgb(56, 111, 152);
+    color: seashell;
+    margin-left: 3%;
+}
+
+#btn-modal-aceptar{
+    background-color:rgb(288, 100, 20);
+    color: white;
+    width: 40%;
+    height: 10%;
+    border-radius: 5px;
+    font-family: century Gothic;
+    padding: 2%;
+    margin-left: 60%;
+}
+
+#btn-modal-aceptar:hover{
+    background-color:#BC590D;
+}
+
+#ImgenPrincipal {
+    margin-left:10%;
+
+}
+
+#ImgenCovid {
+    margin-left:10%;
+}
+
+#img_weather{
+    margin-left: 10%;
+}
+
+#img_indicador{
+    margin-left: 10%;
+}

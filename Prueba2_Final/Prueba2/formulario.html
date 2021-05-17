@@ -1,0 +1,81 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+  </head>
+    <header>
+
+      <div class="botones" id="barra-btn">
+          <img src="img/Bancobrarazul.png" id="logo_bnc">
+          <a class="btn" id="btn_volver" href="Inicio.html">X</a>
+      </div>
+    </header>
+    <!--INICIO FORMULARIO DE REGISTRO-->
+
+    <H1 id="titulo-form">FORMULARIO DE REGISTRO</H1>
+    <form id="basic-form" action="" method="post">
+      <div class="form" id="formulario-registro"> 
+        <div class="form-row">
+          <div class="form-group col-md-6">
+
+            <label >Nombres (*)</label>
+            <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" placeholder="Nombre">
+          </div>
+          <div class="form-group col-md-6">
+            <label >Apellidos (*)</label>
+            <input type="text" class="form-control" id="txt_apellidos" name="txt_apellidos" placeholder=" Apellidos">
+          </div>
+          <div class="form-group col-md-6">
+            <label id="lbl-email" >Email(*)</label>
+            <input type="email" class="form-control" id="txt_email" name="txt_email" placeholder="Aperez@gm.cl">
+          </div>
+          <div class="form-group col-md-6">
+            <label>Rut (Sin puntos, sin guión y con digito verificador *)</label>
+            <input type="text" class="form-control" id="txt_rut" name="txt_rut" placeholder="175684122">
+            <ul id="mensaje2" class="error"></ul>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Dirección (*)</label>
+          <input type="text" class="form-control" id="txt_direccion" name="txt_direccion" placeholder="Olivos 2556">
+        </div>
+        <div class="form-row">          
+          <div class="form-group col-md-4">
+            <label>Tipo de Cuenta(*)</label>
+            <select id="input-selected" class="form-control">
+              <option selected>--Seleccione--</option>
+              <option>Cuenta Corriente</option>
+              <option>Cuenta Vista</option>
+              <option>Cuenta de Ahorro</option>
+            </select>
+            <ul id="mensaje1" class="error"></ul> 
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label>Contraseña</label>
+          <input type="password" class="form-control" id="txt_contrasena" name="txt_contrasena">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Repita Contraseña(*)</label>
+          <input type="password" class="form-control" id="txt_confirmar" name="txt_confirmar">
+          <ul id="mensajes" class="error"></ul> 
+        </div>       
+       <br>
+       <button class="boton" type="submit" name="submit" id="btn_enviar"> Finalizar Registro </button>
+       <br />
+       <label id="lbl_registro"></label>
+       <div class="form-group">
+
+       </div>
+     </div>
+
+     <form id="basic-form" action="" method="post">
+
+      <script src="js/funciones.js"></script>
+
+

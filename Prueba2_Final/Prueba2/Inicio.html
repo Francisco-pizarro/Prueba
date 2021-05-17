@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body >
+
+ <header>
+
+  <div class="botones" id="barra-btn" >
+    <nav class="navbar navbar">
+      <img src="img/Bancobrarazul.png" id="logo_bnc" >
+
+      <button class="btn" id="btn_ingresar"  data-toggle="modal" data-target="#staticBackdrop">Ingreso clientes</button>
+      <a class="btn" id="btn_registrar" href="formulario.html">Hazte Cliente</a>
+    </nav>
+  </div>
+</header>
+
+  <img src="Img/Presentation.gif" id="ImgenPrincipal" alt="Procesos" style="width: 50%" ><img src="img/Info covid.png" id="ImgenCovid" style="width: 15%">
+
+
+  <!--MODAL QUE DESENCADENA A UNA PAGINA DE BINVENIDA -->
+  <!--AUN NO CUENTA CON VALIDACIONES-->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="titulo-modal">Bienvenido: </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label>Ingrese su usuario:</label>
+              <input type="text" class="form-control" id="txt_usuario">
+            </div>
+            <div class="form-group">
+              <label>Ingrese su rut:</label>
+              <input type="text" class="form-control" id="txt_mod_rut">
+            </div>
+            <div class="form-group">
+              <label>Clave:</label>
+              <input type="password" class="form-control" id="txt_clave">
+              <small id="msj-clave" class="form-text text-muted">Clave única de 6 dígitos.</small>
+            </div>
+            <a class="btn" id="btn-modal-aceptar" href="bienvenida.html" role="button">Aceptar</a>
+          </form>
+        </div>
+        <div>
+          <a class="btn" id="btn-modal-recuperar" href="" role="button">¿Olvidaste o se bloqueó tu clave?.</a>
+          <br>
+          <br>
+          <label id="lbl_registro_modal"></label>
+          <ul id="mensaje_error_mod"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+
+</html>
